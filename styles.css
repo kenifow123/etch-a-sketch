@@ -1,0 +1,10 @@
+.grid-container {
+    display: grid;
+    height: 960px;
+    width: 960px;
+    /*gap: 0;*/
+}
+
+.square {
+    border: 1px solid black;
+}
