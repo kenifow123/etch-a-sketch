@@ -3,8 +3,10 @@
     height: 960px;
     width: 960px;
     /*gap: 0;*/
+    border: 1px solid black;
 }
 
 .square {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
+    opacity: 0;
 }

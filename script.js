@@ -22,6 +22,16 @@ gridDiv.addEventListener("mouseover", (event) => {
     let target = event.target;
     if (target.classList.contains("square")) {
         target.style.backgroundColor = "lightgreen";
+
+
+        //opacity
+        if (!target.style.opacity) {
+            target.style.opacity = 0;
+        }
+
+        let curOpacity = parseFloat(target.style.opacity);
+        curOpacity += + 0.1;
+        target.style.opacity = curOpacity;
     }
 })
 
