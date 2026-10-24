@@ -21,7 +21,7 @@ let gridDiv = document.querySelector(".grid-container")
 gridDiv.addEventListener("mouseover", (event) => {
     let target = event.target;
     if (target.classList.contains("square")) {
-        target.style.backgroundColor = "lightgreen";
+        target.style.backgroundColor = "dodgerblue";
 
 
         //opacity

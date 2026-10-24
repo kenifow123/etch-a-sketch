@@ -10,3 +10,11 @@
     /*border: 1px solid black;*/
     opacity: 0;
 }
+
+.container {
+    display: block;
+    align-content: center;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+}
